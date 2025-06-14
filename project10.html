@@ -1,0 +1,46 @@
+<!--problem statement:
+embark on an engaging project to create a dynamic web page that features a colour slider allowing users to interactively change the text colour in real-time,this html,css and javascript project,"dynamic text colour slider page,"aims to provide hands-on experience in building a visually dynamic user interface with dynamic colour manipulation.
+
+project features:
+
+.text display section:
+    .design a section that display a piece of text prominently on the webpage.
+
+ .color slider:
+     .implement a colour slider using html range input or any suitable UI element that dynamically adjust the colour of the display text.
+ 
+.  user-friendly interface:
+    .ensure a user-friendly interface that intuitively guides users to change text colours effortlessly.
+    
+.real-time colour change:
+     .ensure that the text colour changes in real-time as users slide across the colour spectrum,providing instant visual feedback.
+     
+.color palette:
+   .intergrate a colour palette or gradient that visually represents the range of colours available through the slider.     
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Text Colour Slider</title>
+    <link rel="stylesheet" href="project10.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="text-display">Adjust the text color using the slider!</h1>
+        <div class="slider-container">
+            <label for="color-slider">Choose a color:</label>
+            <input type="range" id="color-slider" min="0" max="255" value="128">
+        </div>
+
+        <div class="color-gradient">
+            <label>Color Spectrum:</label>
+            <div id="gradient" class="gradient-box"></div>
+        </div>
+<div> 
+    <script src="project10.js"></script>
+</body>
+</html>
